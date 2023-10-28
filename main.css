@@ -1,0 +1,73 @@
+#body {
+    background-color: #0e0e0e;
+}
+
+* {
+    color: #fff;
+}
+
+.clock-list {
+    /* width: 100%; */
+    width: 820px;
+    display: flex;
+    gap: 20px;
+    padding: 50px;
+    border: 1px solid #3a3a3a;
+    border-radius: 5px;
+    margin: 0 auto;
+    background-color: #171717;
+    display: flex;
+    align-items: center;
+}
+
+.clock-item {
+    min-width: 200px;
+    height: 200px;
+    background-color: #232323;
+    border: 1px solid #3a3a3a;
+    border-radius: 5px;
+    padding: 0px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.clock-item-number {
+    font-size: 104px;
+}
+
+.one-points,
+.two-points {
+    width: 22.55px;
+    font-size: 104px;
+}
+
+.white {
+    color: #fff;
+}
+
+.black {
+    color: #171717;
+}
+
+.days-list {
+    width: 820px;
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    border: 1px solid #3a3a3a;
+    border-radius: 5px;
+    margin: 0 auto;
+    background-color: #171717;
+    display: flex;
+    align-items: center;
+}
+
+span {
+    color: rgba(0, 255, 0, 1);
+    ;
+}
+
+p {
+    font-size: 32px;
+}
